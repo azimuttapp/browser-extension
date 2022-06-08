@@ -15,7 +15,13 @@ To do a build you can do `npm run build` (needed when changing the manifest)
 
 ### Chrome
 
-See https://developer.chrome.com/docs/webstore/publish
+- increase the `version` in `manifest.json`
+- build package: `npm run build`
+- make a zip from `/dist`
+- open `https://chrome.google.com/u/2/webstore/devconsole`
+- open the extension, go on `package` section and click `import new package` to import your zip
+
+More on https://developer.chrome.com/docs/webstore/publish
 
 ## Inspirations
 
